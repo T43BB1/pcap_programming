@@ -32,12 +32,6 @@ This project demonstrates how to capture and analyze network packets using the `
 - A network interface named `ens33` (or modify the source code to use your interface).
 - C compiler (e.g., gcc).
 
-## Compilation
-
-```sh
-gcc -o pcap_programming pcap_programming.c -lpcap
-```
-
 ## Notes
 
 - Make sure your user has the necessary permissions to capture packets on the specified network interface.
