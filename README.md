@@ -38,16 +38,6 @@ This project demonstrates how to capture and analyze network packets using the `
 gcc -o pcap_programming pcap_programming.c -lpcap
 ```
 
-## Usage
-
-Run the program with root privileges to allow access to the network interface:
-
-```sh
-sudo ./pcap_programming
-```
-
-The program will start capturing TCP packets on the `ens33` interface and print their header information to the console.
-
 ## Notes
 
 - Make sure your user has the necessary permissions to capture packets on the specified network interface.
